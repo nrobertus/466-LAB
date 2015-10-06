@@ -12,7 +12,6 @@ import java.util.Random;
  * @author Andrew Jenkins, Nathan Robertus
  */
 public class Receiver {
-
     static DatagramPacket sendPkt, rcvPkt = initReceiveDataConstraints();
     static byte[] rcvData = new byte[1024];
     static int numOfPacketsToDrop = -1;
